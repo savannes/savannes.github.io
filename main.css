@@ -22,28 +22,6 @@ li {
     list-style: square;
   }
   
-  .btn {
-    position: absolute;
-    top: 20px;
-    left: 700px;
-    color: var(--btnFontColor);
-    background-color: var(--btnBg);
-    height: 40px;
-    width: 60px;
-    border-radius: 50%;
-    
+#logo{
+  text-align:center;
 }
-
-    .light-theme {
-        --bg: var(--white);
-        --fontColor: var(--black);
-        --btnBg: var(--black);
-        --btnFontColor: var(--white);
-    }
-    
-    .dark-theme {
-        --bg: var(--black);
-        --fontColor: var(--white);
-        --btnBg: var(--white);
-        --btnFontColor: var(--black);
-    }

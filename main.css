@@ -47,3 +47,18 @@ li {
         --btnBg: var(--white);
         --btnFontColor: var(--black);
     }
+    #container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+      padding: 10px;
+    }
+    
+    #one,
+    #two, 
+    #three {
+      width: 200px;
+      height: 100%;
+      background: white;
+    }

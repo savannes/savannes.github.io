@@ -48,3 +48,8 @@ li {
       --btnFontColor: var(--black);
   }
   
+  
+  .displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
